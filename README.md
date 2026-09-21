@@ -44,24 +44,25 @@ Femiora is a full-stack, online-first women's fashion e-commerce platform. It co
 
 ## Project Structure
 
+```
 femiora/
 ├── backend/
-│ ├── app/
-│ │ ├── models/ # SQLAlchemy models (Product, Order, User, etc.)
-│ │ ├── routers/ # API endpoints (products, orders, auth, chatbot, contact, newsletter)
-│ │ ├── services/ # Business logic (email, cloudinary, chatbot, auth)
-│ │ ├── db.py # Database connection
-│ │ └── main.py # FastAPI app entry point
-│ ├── alembic/ # Database migrations
-│ ├── seed.py # Sample product data
-│ └── requirements.txt
+│   ├── app/
+│   │   ├── models/          # SQLAlchemy models (Product, Order, User, etc.)
+│   │   ├── routers/         # API endpoints (products, orders, auth, chatbot, contact, newsletter)
+│   │   ├── services/        # Business logic (email, cloudinary, chatbot, auth)
+│   │   ├── db.py            # Database connection
+│   │   └── main.py          # FastAPI app entry point
+│   ├── alembic/              # Database migrations
+│   ├── seed.py                # Sample product data
+│   └── requirements.txt
 ├── frontend/
-│ ├── app/ # Next.js pages (shop, cart, checkout, admin, etc.)
-│ ├── components/ # React components (cart, chatbot, layout, home, product)
-│ ├── lib/ # API client, Cart/Wishlist context
-│ └── package.json
+│   ├── app/                   # Next.js pages (shop, cart, checkout, admin, etc.)
+│   ├── components/            # React components (cart, chatbot, layout, home, product)
+│   ├── lib/                   # API client, Cart/Wishlist context
+│   └── package.json
 └── README.md
-
+```
 
 ## Getting Started
 
