@@ -82,6 +82,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in `backend/`:
 
+```
 DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/femiora
 GROQ_API_KEY=your_groq_api_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -93,7 +94,7 @@ SMTP_USER=your_email@gmail.com
 SMTP_PASSWORD=your_app_password
 FROM_EMAIL=your_email@gmail.com
 JWT_SECRET=a-long-random-secret-string
-
+```
 
 Run migrations and seed sample data:
 ```bash
